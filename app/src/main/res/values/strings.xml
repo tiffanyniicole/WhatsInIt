@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">What\'s In It?</string>
+    <string name="begin">Begin Search</string>
+    <string name="category">Categories</string>
+    <string name="Hair">Hair</string>
+    <string name="cosmetics">Cosmetics</string>
+    <string name="food">Food</string>
+    <string name="cleaning">Cleaning</string>
+    <string name="search">SEARCH</string>
+    <string name="find">Find Products</string>
+    <string name="search_again">Search Again!</string>
+    <string name="Firebase_url">https://whatsinit.firebaseio.com/</string>
+    <string name="hint">Enter brand name</string>
+    <string name="products">Select a product</string>
+    <string name="cache_dirname">GoogleImgApp_Cache</string>
+</resources>

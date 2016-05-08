@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:textSize="50sp"
+        android:gravity="center_horizontal"
+        android:textColor="#050505"
+        android:textStyle="italic"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Hair"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/hairButton"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cosmetics"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/cosmeticsButton"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/food"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/foodButton"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cleaning"
+        android:textColor="@color/white"
+        android:background="@color/teal"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/cleaningButton"/>
+
+</LinearLayout>
